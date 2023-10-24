@@ -1,0 +1,17 @@
+{
+    "name": "diegomenses/flor_back",
+    "description": "Proyecto Flor de Cempasuchil MVC, PHP 8, SASS",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controller\\" : "./controllers",
+            "Model\\" : "./models",
+            "Clase\\" : "./classes"
+        }
+    },
+    "require": {
+        "intervention/image": "^2.7",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}

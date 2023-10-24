@@ -1,0 +1,1 @@
+export function obtenerId(){const e=new URLSearchParams(window.location.search);return Object.fromEntries(e.entries()).id}

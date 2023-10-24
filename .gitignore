@@ -1,0 +1,5 @@
+public/imagenes/
+node_modules/
+vendor/
+src/
+.env
